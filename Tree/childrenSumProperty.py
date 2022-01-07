@@ -5,18 +5,8 @@ class Node:
         self.right=None
 
 def SumProperty(root):
-    if root==None:
-        return 
-    q=[]
-    q.append(root)
-    while(len(q)!=0):
-        a=q.pop(0)
-        if a.data!=(a.left.data+a.right.data):
-            return False
-        else:
-            q.append(a.left)
-            q.append(a.right)
-    return True
+    pass
+    
 
 if __name__=="__main__":
     root=Node(10)
